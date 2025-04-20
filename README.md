@@ -45,5 +45,61 @@ Aplicar os recursos do Language Studio no Azure para analisar sentimentos em tex
 - **Microsoft Azure Language Studio**
 - **GitHub**
 
+------------------------------------------------------------------------------------
+
+# 🔍 Azure Cognitive Search: Utilizando AI Search para Indexação e Consulta de Dados
+
+Este repositório documenta o uso da ferramenta **Azure Cognitive Search**, com foco em criação de índices inteligentes e consultas avançadas. O objetivo é demonstrar como utilizar os recursos de inteligência artificial do Azure para estruturar, indexar e pesquisar dados de forma eficaz e escalável.
+
+---
+
+## 🎯 Objetivo
+
+Explorar o Azure Cognitive Search como solução de busca baseada em IA, aplicando conceitos de indexação, análise semântica e recuperação inteligente de dados em diferentes formatos (texto, documentos, etc).
+
+---
+
+## 🧪 Etapas Realizadas
+
+1. **Acesso ao Portal Azure Cognitive Search**  
+   Plataforma: [https://portal.azure.com](https://portal.azure.com)
+
+2. **Criação do Serviço de Busca**  
+   - Criado um novo recurso de *Search Service* com nível gratuito (F).
+
+3. **Configuração do Indexador**  
+   - Fonte de dados: planilha Excel com reviews de produtos.
+   - Campos indexados: Nome do Produto, Categoria, Descrição, Avaliação.
+
+4. **Criação do Índice**  
+   - Definido os campos de pesquisa: `nome_produto`, `descricao`, `avaliacao`.
+
+5. **Consulta por Termos**  
+   - Utilizado o portal de testes da Microsoft para buscar termos como:
+     - *"fone sem fio bom"*
+     - *"notebook gamer rápido"*
+
+6. **Análise de Resultados**  
+   - A IA aplica modelos semânticos para retornar resultados mais relevantes, mesmo com sinônimos ou termos parecidos.
+
+---
+
+## 💡 Insights Obtidos
+
+- O Azure Cognitive Search permite criar sistemas de busca poderosos com baixo esforço técnico.
+- É possível integrar IA para identificar sinônimos, contextos e sugestões automáticas.
+- Ideal para sites, e-commerces, bases de dados jurídicas, científicas, etc.
+- Alta escalabilidade e personalização de filtros e relevância.
+
+---
+
+## 🧰 Tecnologias Utilizadas
+
+- **Azure Cognitive Search**
+- **AI-Powered Search**
+- **Indexadores Inteligentes**
+- **GitHub**
+
+
 
 
